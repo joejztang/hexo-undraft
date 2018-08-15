@@ -1,6 +1,6 @@
 {
   "name": "hexo-undraft",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "hexo enhanced publish/manage function",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "git+https://github.com/joejztang/hexo-undraft.git"
   },
   "dependencies": {
-    "bludbird": "~3.0.5",
+    "bluebird": "~3.0.5",
     "chalk": "~2.3.1",
     "inquirer": "~0.11.0",
     "mkdirp": "~0.5.1"
