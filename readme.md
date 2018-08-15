@@ -16,7 +16,7 @@ example:
 ---
 title: example is here
 tags:
-dest: \_posts/foo/bar
+dest: _posts/foo/bar
 ---
 ```
 
@@ -36,7 +36,7 @@ example:
 ---
 title: example is here
 tags:
-origin: \_drafts/foo/bar
+origin: _drafts/foo/bar
 ---
 ```
 
