@@ -40,17 +40,17 @@ origin: _drafts/foo/bar
 ---
 ```
 
-`hexo endraft [title] [-t | --to FOLDER] [-a | --all]`
+`hexo endraft [title] [-f | --from FOLDER] [-a | --all]`
 
 * title: input full or partial title to let it find posts that you want to draft
-* -t | --to FOLDER: if you give "origin" setting in the post, it will have higher priority, so that the plugin will omit what you input. Otherwise, the post will be drafted to designated path.
+* -f | --from FOLDER: if you give "origin" setting in the post, it will have higher priority, so that the plugin will omit what you input. Otherwise, the post will be drafted to designated path.
 * -a | --all: if you use this flag, it will draft all posts that the plugin finds(in this case you have to give `title`). If you omit the `title`, it will draft **all** posts after getting your confirmation.
 
 # a few words
 
 * when posts number is really large, the process time will be long because the plugin has to load all posts in order to filter.
 * if the path you give either in post settings or terminal input is not existed, the plugin will create for you.
-* if using `-t` flag without a given path, the plugin will not run; similarly, if using `-a` flag and giving additional parameter, the plugin will not run too.
+* if using `-t|-f` flag without a given path, the plugin will not run; similarly, if using `-a` flag and giving additional parameter, the plugin will not run too.
 * the plugin will set config parameter `render_drafts` as `true` automatically.
 
 # inspired by
