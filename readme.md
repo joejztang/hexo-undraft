@@ -51,6 +51,7 @@ origin: _drafts/foo/bar
 * when posts number is really large, the process time will be long because the plugin has to load all posts in order to filter.
 * if the path you give either in post settings or terminal input is not existed, the plugin will create for you.
 * if using `-t` flag without a given path, the plugin will not run; similarly, if using `-a` flag and giving additional parameter, the plugin will not run too.
+* the plugin will set config parameter `render_drafts` as `true` automatically.
 
 # inspired by
 
