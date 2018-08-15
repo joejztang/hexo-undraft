@@ -12,11 +12,13 @@ It basically does `mv` command like in the Terminal, but will prompt up and let 
 
 example:
 
-> ---
-> title: example is here
-> tags:
-> dest: \_posts/foo/bar
-> ---
+```
+---
+title: example is here
+tags:
+dest: \_posts/foo/bar
+---
+```
 
 `hexo undraft [title] [-t | --to FOLDER] [-a | --all]`
 
@@ -30,11 +32,13 @@ example:
 
 example:
 
-> ---
-> title: example is here
-> tags:
-> origin: \_drafts/foo/bar
-> ---
+```
+---
+title: example is here
+tags:
+origin: \_drafts/foo/bar
+---
+```
 
 `hexo endraft [title] [-t | --to FOLDER] [-a | --all]`
 
