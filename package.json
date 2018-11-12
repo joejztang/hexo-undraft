@@ -1,6 +1,6 @@
 {
   "name": "hexo-undraft",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "hexo enhanced publish/manage function",
   "main": "index.js",
   "repository": {
